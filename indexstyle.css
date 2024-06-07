@@ -1,0 +1,488 @@
+.desktop {
+  width: 1440px;
+  height: 1024px;
+  background: var(--Creamy, #f8e9dd);
+}
+.rectangle {
+  width: 540px;
+  height: 125px;
+  flex-shrink: 0;
+  border-radius: 19px;
+  background: var(--hot-red, #ec775f);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+.balance {
+  color: #fff;
+  font-family: "DM Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+  top: 10px;
+  left: 26px;
+}
+.amount {
+  color: var(--Card-White, #fffbf6);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "DM Sans";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: relative;
+  bottom: 5px;
+  left: 26px;
+}
+.svg {
+  width: 72px;
+  height: 48px;
+  flex-shrink: 0;
+  position: relative;
+  left: 440px;
+  bottom: 100px;
+}
+.square {
+  border-radius: 19px;
+  background: #fff;
+  width: 540px;
+  height: 511px;
+  flex-shrink: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 640px;
+  bottom: 0;
+  margin: auto;
+}
+.spending {
+  color: var(--Dark-brown, #382314);
+  font-family: "DM Sans";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.9px;
+  width: 351px;
+  height: 40px;
+  flex-shrink: 0;
+  position: relative;
+  top: 10px;
+  left: 30px;
+}
+.monshape {
+  border-radius: 6px;
+  background-color: var(--hot-red, #ec775f);
+  width: 50.36px;
+  height: 50px;
+  flex-shrink: 0;
+  position: relative;
+  top: 120px;
+  left: 30px;
+  cursor: grab;
+}
+.monshape:hover {
+  background-color: hsl(10, 86%, 78%);
+}
+.monshape .monhover {
+  visibility: hidden;
+  width: 100px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-radius: 6px;
+  position: relative;
+  bottom: 30px;
+  right: 10px;
+  z-index: 1;
+}
+.monshape:hover .monhover {
+  visibility: visible;
+}
+.tueshape {
+  border-radius: 6px;
+  background-color: var(--hot-red, #ec775f);
+  width: 50px;
+  height: 101px;
+  flex-shrink: 0;
+  position: relative;
+  top: 19px;
+  left: 100px;
+  cursor: grab;
+}
+.tueshape:hover {
+  background-color: hsl(10, 86%, 78%);
+}
+.tueshape:hover .tuehover {
+  visibility: visible;
+}
+.tueshape .tuehover {
+  visibility: hidden;
+  width: 100px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-radius: 6px;
+  position: relative;
+  bottom: 30px;
+  right: 10px;
+  z-index: 1;
+}
+.wedshape {
+  border-radius: 6px;
+  background-color: #76b5bc;
+  width: 50px;
+  height: 150px;
+  flex-shrink: 0;
+  position: relative;
+  bottom: 130px;
+  left: 170px;
+  cursor: grab;
+}
+.wedshape:hover {
+  background-color: #8ee9f3;
+}
+.wedshape:hover .wedhover {
+  visibility: visible;
+}
+.wedshape .wedhover {
+  visibility: hidden;
+  width: 100px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-radius: 6px;
+  position: relative;
+  bottom: 30px;
+  right: 10px;
+  z-index: 1;
+}
+.thushape {
+  border-radius: 6px;
+  background-color: var(--hot-red, #ec775f);
+  width: 50px;
+  height: 88px;
+  flex-shrink: 0;
+  position: relative;
+  bottom: 219px;
+  left: 240px;
+  cursor: grab;
+}
+.thushape:hover {
+  background-color: hsl(10, 86%, 78%);
+}
+.thushape:hover .thuhover {
+  visibility: visible;
+}
+.thushape .thuhover {
+  visibility: hidden;
+  width: 100px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-radius: 6px;
+  position: relative;
+  bottom: 30px;
+  right: 10px;
+  z-index: 1;
+}
+.frishape {
+  border-radius: 6px;
+  background-color: var(--hot-red, #ec775f);
+  width: 50px;
+  height: 66px;
+  flex-shrink: 0;
+  position: relative;
+  bottom: 284px;
+  left: 310px;
+  cursor: grab;
+}
+.frishape:hover {
+  background-color: hsl(10, 86%, 78%);
+}
+.frishape:hover .frihover {
+  visibility: visible;
+}
+.frishape .frihover {
+  visibility: hidden;
+  width: 100px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-radius: 6px;
+  position: relative;
+  bottom: 30px;
+  right: 10px;
+  z-index: 1;
+}
+.satshape {
+  border-radius: 6px;
+  background-color: var(--hot-red, #ec775f);
+  width: 50px;
+  height: 124px;
+  flex-shrink: 0;
+  position: relative;
+  bottom: 408px;
+  left: 380px;
+  cursor: grab;
+}
+.satshape:hover {
+  background-color: hsl(10, 86%, 78%);
+}
+.satshape:hover .sathover {
+  visibility: visible;
+}
+.satshape .sathover {
+  visibility: hidden;
+  width: 100px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-radius: 6px;
+  position: relative;
+  bottom: 30px;
+  right: 10px;
+  z-index: 1;
+}
+.sunshape {
+  width: 50px;
+  height: 72px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background-color: var(--hot-red, #ec775f);
+  position: relative;
+  bottom: 480px;
+  left: 450px;
+  cursor: grab;
+}
+.sunshape:hover {
+  background-color: hsl(10, 86%, 78%);
+}
+.sunshape:hover .sunhover {
+  visibility: visible;
+}
+.sunshape .sunhover {
+  visibility: hidden;
+  width: 100px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-radius: 6px;
+  position: relative;
+  bottom: 30px;
+  right: 10px;
+  z-index: 1;
+}
+.mon {
+  width: 36px;
+  height: 23px;
+  flex-shrink: 0;
+  color: var(--medium-brown, #93867b);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "DM Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+  bottom: 490px;
+  left: 37px;
+}
+.tue {
+  width: 36px;
+  height: 23px;
+  flex-shrink: 0;
+  color: var(--medium-brown, #93867b);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "DM Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+  bottom: 527px;
+  left: 109px;
+}
+.wed {
+  width: 36px;
+  height: 23px;
+  flex-shrink: 0;
+  color: var(--medium-brown, #93867b);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "DM Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+  bottom: 564px;
+  left: 178px;
+}
+.thu {
+  width: 36px;
+  height: 23px;
+  flex-shrink: 0;
+  color: var(--medium-brown, #93867b);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "DM Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+  bottom: 602px;
+  left: 248px;
+}
+.fri {
+  width: 36px;
+  height: 23px;
+  flex-shrink: 0;
+  color: var(--medium-brown, #93867b);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "DM Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+  bottom: 640px;
+  left: 318px;
+}
+.sat {
+  width: 36px;
+  height: 23px;
+  flex-shrink: 0;
+  color: var(--medium-brown, #93867b);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "DM Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+  bottom: 679px;
+  left: 387px;
+}
+.sun {
+  width: 36px;
+  height: 23px;
+  flex-shrink: 0;
+  color: var(--medium-brown, #93867b);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "DM Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+  bottom: 717px;
+  left: 457px;
+}
+.line {
+  width: 460px;
+  height: 2px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: var(--Creamy, #f8e9dd);
+  position: relative;
+  bottom: 717px;
+  left: 35px;
+}
+.total {
+  color: var(--medium-brown, #93867b);
+  font-family: "DM Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.54px;
+  width: 156px;
+  height: 40px;
+  flex-shrink: 0;
+  position: relative;
+  bottom: 680px;
+  left: 35px;
+}
+.month {
+  color: var(--Dark-brown, #382314);
+  font-family: "DM Sans";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 198px;
+  height: 65px;
+  flex-shrink: 0;
+  position: relative;
+  bottom: 740px;
+  left: 35px;
+}
+.percent {
+  color: var(--Dark-brown, #382314);
+  font-family: "DM Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 70px;
+  height: 25px;
+  flex-shrink: 0;
+  position: relative;
+  bottom: 850px;
+  left: 420px;
+}
+.last {
+  color: var(--medium-brown, #93867b);
+  font-family: "DM Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.54px;
+  width: 156px;
+  height: 40px;
+  flex-shrink: 0;
+  position: relative;
+  bottom: 870px;
+  left: 360px;
+}
